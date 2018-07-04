@@ -972,6 +972,7 @@ footer .footer-manu ul li a:hover {
   border: 2px solid gray;
   padding: 20px;
   margin: 5px;
+  min-height: 220px !important;
 }
 
 @media (min-width: 991px) {
