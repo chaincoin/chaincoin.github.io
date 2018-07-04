@@ -970,13 +970,22 @@ footer .footer-manu ul li a:hover {
 
 .wallet-download-so {
   border: 2px solid gray;
-  max-width: 25%;
   padding: 20px;
   margin: 5px;
+}
 
-  width:20%;
-  margin:0 2.5%;
+@media (min-width: 991px) {
+  .wallet-download-so {
+    width:20%;
+    margin: 0px 0px 10px 25px;
+  }
+}
 
+@media (max-width: 991px) {
+  .wallet-download-so {
+    width: 90%;
+    margin: 0px 0px 10px 25px;
+  }
 }
 
 .wallet-download-so:hover {
