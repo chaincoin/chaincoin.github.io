@@ -1060,5 +1060,10 @@ header .navbar-default {
   .OTeam.col-md-8 {
     max-width: 63.66%;
   }
+}
 
+.embed-responsive-item, .embed-responsive, .embed-responsive-4by3 {
+  max-height: 480px;
+  height: 480px;
+  padding-bottom: 0px !important;
 }
