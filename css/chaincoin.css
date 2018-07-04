@@ -25,7 +25,15 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  background: url("/img/background.png") no-repeat;
+  background-size: cover;
 }
+
+.jumbotron {
+  background: unset;
+}
+
 h1,
 h2,
 h3,
@@ -209,14 +217,6 @@ font header .navbar-default .navbar-nav li a:hover {
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
-/*--
-	Slider Start
---*/
-
-body {
-  overflow-x: hidden;
-}
-
 .vertical-align {
     display: flex;
     align-items: center;
@@ -980,4 +980,78 @@ color: #333;
 
 header .navbar-default {
   border-bottom: 2px solid #27B463;
+}
+
+.OTeam {
+  border: 2px solid #27B463;
+  border-radius: 1em;
+  padding: 2em;
+  margin: 0px 10px 10px 10px;
+  min-height: 368px;
+}
+
+.OTeam p {
+  text-align: center;
+}
+
+.OTeam img {
+  min-width: 208px;
+  min-height: 208px;
+
+  max-width: 350px;
+
+  padding-left: 0px !important;
+}
+.OTeam.col-md-4 img {
+  max-width: 208px;
+  max-height: 208px;
+}
+
+
+
+.contributors {
+  border: 2px solid #27B463;
+  border-radius: 1em;
+  padding: 2em;
+  margin: 0px 10px 10px 10px;
+  min-height: 344px;
+}
+
+.contributors p {
+  text-align: center;
+}
+
+.contributors img {
+  min-width: 208px;
+  min-height: 208px;
+
+  max-width: 350px;
+
+  padding-left: 0px !important;
+}
+.contributors.col-md-4 img {
+  max-width: 208px;
+  max-height: 208px;
+}
+
+@media (max-width: 991px) {
+  .contributors, .OTeam {
+    width: 90%;
+    margin: 0px 0px 10px 25px;
+    max-width: unset;
+  }
+}
+
+@media (min-width: 991px) {
+  .contributors.col-md-4 {
+    max-width: 31%;
+  }
+
+  .OTeam.col-md-4 {
+    max-width: 31%;
+  }
+  .OTeam.col-md-8 {
+    max-width: 63.66%;
+  }
+
 }
