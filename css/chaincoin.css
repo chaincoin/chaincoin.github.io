@@ -84,6 +84,13 @@ header {
   background: #fff;
   padding: 0px 0px 15px 0px;
 }
+
+@media (max-width: 768px) {
+  header {
+    padding: 0px 0px 55px 0px;
+  }
+}
+
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
