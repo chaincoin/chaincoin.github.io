@@ -1,4 +1,4 @@
-Chaincoin Website (ARCHIVE)
+Chaincoin Website
 =================
 
 https://www.chaincoin.org
