@@ -977,14 +977,14 @@ footer .footer-manu ul li a:hover {
 
 @media (min-width: 991px) {
   .wallet-download-so {
-    width:20%;
+    width:22.5%;
     margin: 0px 0px 10px 25px;
   }
 }
 
 @media (max-width: 991px) {
   .wallet-download-so {
-    width: 90%;
+    width: 85%;
     margin: 0px 0px 10px 25px;
   }
 }
