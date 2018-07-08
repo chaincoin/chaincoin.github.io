@@ -1,5 +1,6 @@
 {
  "name": "Chaincoin",
+ "short_name": "Chaincoin",
  "icons": [
   {
    "src": "/icons/android-icon-36x36.png",
